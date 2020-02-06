@@ -17,3 +17,5 @@ Prepare a feeder file ( example attached ) that has your test cases , scripts & 
 You will need to provide your database hostname & DB SID. It gets username from windows system. For providing password to connect to database, you will need to enter the SID and the password in Windows Credential Manager. The keyring package then gets the password from Windows Credential Manager.
 
 A sample feeder file - Test_Cases.xlsx and the email report is attached for reference.
+
+![Automated Email with Test Execution Report](https://github.com/sachin-cw/Test-Script-Execution-Automation/blob/master/Automated%20Email%20with%20Test%20Execution%20Report.PNG)
