@@ -14,4 +14,4 @@ After the testing is completed, report is successfully generated and email sent,
 How do you use this?
 Prepare a feeder file ( example attached ) that has your test cases , scripts & expected count. The scripts for ETL testing should be written in such a way using Minus operations that you get the count of records. If data has moved accurately between databases in the ETL execution, then your script should produce a count of zero. If you get a non zero count, it means that the test case has failed and the data hasn't moved accurately as expected between databases.
 
-You will need to provide your database hostname & DB SID. It gets username from windows system. For providing password to connect to database, you will need to enter 
+You will need to provide your database hostname & DB SID. It gets username from windows system. For providing password to connect to database, you will need to enter the SID and the password in Windows Credential Manager. The keyring package then gets the password from Windows Credential Manager.
